@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><!-A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.->	
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jonas Mendes Jr</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head><!- A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title. ->
+<body><!- E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos. ->
+	<header> 
+		<img class="img01" src="01.jpg" alt="foto" height="100">
+		<h1 id="title">Jonas Mendes Jr</h1>
+	</header>
+
+	<section> <!-Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.->
+		<header> <!- É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.->
+			<h2 class="subtitle">post</h2>
+		</header>
+			
+		<article class="post"> <!-Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.->
+			<header>
+				<h3 class="post_title">Post #1</h3>
+				<img class="img02" src="02.jpg" alt="foto2" height="150">
+			</header>
+			<p class="post_cont">
+				<a href="https://www.tecmundo.com.br/produto/232955-james-bond-onde-assistir-antigos-novo-filme-007.htm#:~:text=James%20Bond%20%C3%A9%20o%20agente,007%20contra%20o%20Sat%C3%A2nico%20Dr." target="_blank">James Bond</a> é o agente mais <a href="mailto:jonasbm@gmail.com">conhecido</a> de todo o planeta. Reconhecido pelo codinome 007, o agente secreto do MI6 foi criado pelo escritor Ian Flemming, em 1950, e caiu nas graças do povo em 1962, com o lançamento do longa-metragem 007 contra o Satânico Dr. No.
+			</p>
+		</article>
+
+	</section>
+
+	<footer>
+		<ul class="list">
+			<li><a href="mailto:Jonas@m.com">jonas@m.com</a></li>
+			<li><a href="https://unsplash.com/s/photos/code-background">Site</a></li>
+
+		</ul>
+	</footer>
+
+</body>
+</html>
